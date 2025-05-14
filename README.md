@@ -7,3 +7,6 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 test login by use:
 Email: user@nextmail.com
 Password: 123456
+
+deploy:
+when use 'vercel --prod' deploy to vercel, need go to "https://vercel.com/joey-zhangs-projects-3c305561/joey-2025-nextjs-dashboard/settings" , click 'Environment Variables' on the left side-bar, and add new 'AUTH_SECRET' key &value of '.env' file, then deploy.
